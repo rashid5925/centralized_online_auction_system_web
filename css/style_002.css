@@ -1223,10 +1223,10 @@ button.primary_btn {
   background: #2ebccd;
 }
 .info {
-  background: #38a4ff;
+  background: #f5f5f5;
 }
 .info:before {
-  background: #298cdf;
+  background: #f5f5f5;
 }
 .radius {
   border-radius: 3px;
