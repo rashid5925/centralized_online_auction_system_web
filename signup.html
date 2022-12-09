@@ -13,6 +13,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/signupstyle.css">
     <link rel="stylesheet" href="css/style_002.css">
+
   </head>
 
   <header class="header_area">
@@ -32,16 +33,16 @@
         <i class="fas fa-at"></i>
         <i class="fas fa-mail-bulk"></i>
       </div>
-      <form action="/">
+      <form action="#" id="SignUpForm">
         <h1>Signup</h1>
         <div class="info">
-          <input class="fname" type="text" name="name" placeholder="First name">
-          <input class="fname" type="text" name="name" placeholder="Last name">
-          <input class="fname" type="password" name="name" placeholder="Password">
-          <input type="text" name="Email" placeholder="Email">
-          <input type="text" name="name" placeholder="Phone number">
+          <input class="fname" id="fname" type="text" name="name" placeholder="First name">
+          <input class="fname" id="lname" type="text" name="name" placeholder="Last name">
+          <input class="fname" id="password" type="password" name="name" placeholder="Password">
+          <input type="text" id="email" name="Email" placeholder="Email">
+          <input type="text" id="phoneNo" name="name" placeholder="Phone number">
         </div>
-        <button class="primary_btn" type="submit" href="/">Register</button>
+        <a class="primary_btn" type="submit" id="regbtn">Register</a>
         <a href="signin.html" class="primary_btn2">Already have an account</a>
       </form>
     </div>
@@ -92,6 +93,8 @@
 		</div>
 	</footer>
 
+    <script type="module" src="javascript/user_profiling.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
 		crossorigin="anonymous"></script>
