@@ -32,20 +32,19 @@
         <div class="container col-lg-4 col-md-6">
             <div class="single-blog">
                 <div class="thumb">
-                    <img class="img-fluid" src="images/b1.png" alt="">
+                    <img id="prod-img" class="img-fluid" src="" alt="">
                 </div>
                 <div class="short_details">
                     <div class="meta-top d-flex">
-                        <a href="#" class="p_a_tag"> Max Bid Price Rs.70,000</a>
-                        <a href="#" class="p_a_tag"> End: Dec 10, 2022 23:30</a>
+                        <a id="price" href="#" class="p_a_tag"> Max Bid Price Rs.70,000</a>
+                        <a id="endtime" href="#" class="p_a_tag"> </a>
                     </div>
                     <a class="d-block a-tag" href="#">
-                        <h4>Dell Laptop Core i7</h4>
+                        <h4 id="title"></h4>
                     </a>
                     <div class="text-wrap">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ea, magni
-                            repellat, recusandae rerum
+                        <p id="desc">
+                            
                         </p>
                     </div>
                     <div class="input-group mb-3">
@@ -107,6 +106,8 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="javascript/bidding.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>

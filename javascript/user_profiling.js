@@ -28,7 +28,7 @@ regbtn.addEventListener('click', (e) => {
       // Signed in
       const user = userCredential.user;
       set(ref(database, 'users/' + user.uid), {
-        fname : fname,
+            fname : fname,
             lname : lname,
             email : email,
             password : password,
